@@ -1,0 +1,126 @@
+/* Colour Palette (Dark Mode):
+        #121212 - Night
+        #E0E0E0 - Platinum
+        #8A2BE2 - Blue Violet
+        #9370DB - Amethyst
+        #6A0DAD - Grape
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #E0E0E0;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #121212;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #E0E0E0;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #6A0DAD;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #8A2BE2;
+}
+
+/* Hero section styles */
+.infoContainer {
+    background-color: #1A1A1A;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+}
+
+.info {
+    max-width: 50%;
+}
+
+.infoContainer h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.infoContainer p {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #9370DB;
+    color: #E0E0E0;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #8A2BE2;
+}
+
+/* Featured projects styles */
+.featured-projects {
+    padding: 4rem 2rem;
+}
+
+.featured-projects h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.projects-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.project-card {
+    background-color: #1A1A1A;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: calc(33.333% - 1.33rem);
+}
+
+/* Footer styles */
+footer {
+    background-color: #1A1A1A;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
