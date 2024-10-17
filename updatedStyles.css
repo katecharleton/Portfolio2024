@@ -25,6 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid #8A2BE2; /* Purple line below the navbar */
 }
 
 .logo {
@@ -54,7 +55,6 @@ nav ul li a:hover {
     background-color: #8A2BE2;
 }
 
-/* Hero section styles */
 .infoContainer {
     background-color: #1A1A1A;
     padding: 4rem 2rem;
@@ -80,17 +80,19 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.cta-button {
+.download-button {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background-color: #9370DB;
+    background-color: #6A0DAD;
     color: #E0E0E0;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
-.cta-button:hover {
+.download-button:hover {
     background-color: #8A2BE2;
 }
 
@@ -115,12 +117,52 @@ nav ul li a:hover {
     padding: 1.5rem;
     border-radius: 10px;
     width: calc(33.333% - 1.33rem);
+    height: 200px;
 }
 
 /* Footer styles */
 footer {
     background-color: #1A1A1A;
     text-align: center;
-    padding: 1rem;
+    /*padding: 1rem;*/
     margin-top: 2rem;
+}
+
+/* Projects Page */
+.project h1{
+    font-size: 1.5rem;
+}
+.project {
+    background-color: #1A1A1A;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+}
+.project-image {
+    width: 240px;
+    height: 140px;
+    background-color: #2A2A2A;
+    margin-right: 20px;
+}
+.project-info {
+    flex-grow: 1;
+}
+.project-title, .project-description {
+    background-color: #2A2A2A;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.project-title {
+    height: 35px;
+}
+.project-description {
+    height: 50px;
+}
+.project-link {
+    display: inline-block;
+    background-color: #9370DB;
+    color: #E0E0E0;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin-top: 10px;
 }
