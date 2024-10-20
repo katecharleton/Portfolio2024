@@ -219,11 +219,18 @@ footer {
 }
 .project-link {
     display: inline-block;
-    background-color: #9370DB;
+    background-color: #6A0DAD;
     color: #E0E0E0;
     padding: 5px 15px;
     text-decoration: none;
     margin-top: 10px;
+    transition: background-color 0.3s ease;
+    font-family: Verdana;
+    border-radius: 5px;
+}
+
+.project-link:hover{
+    background-color: #8A2BE2;
 }
 
 .my-projects {
